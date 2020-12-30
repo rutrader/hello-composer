@@ -1,0 +1,16 @@
+{
+    "name": "rutrader/hello-composer",
+    "description": "Just a test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruslan Ishemgulov",
+            "email": "ruslan.ishemgulov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {"rutrader\\HelloComposer\\" :  "src/"}
+    }
+}
