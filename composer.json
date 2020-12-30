@@ -8,8 +8,9 @@
             "email": "ruslan.ishemgulov@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=7.4"
+    },
     "autoload": {
         "psr-4": {"rutrader\\HelloComposer\\" :  "src/"}
     }
